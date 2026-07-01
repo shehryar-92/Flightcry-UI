@@ -1,0 +1,14 @@
+{
+  "name": "Flightscry",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y openjdk-17-jdk",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "github.copilot",
+        "vscjava.vscode-gradle",
+        "redhat.java"
+      ]
+    }
+  }
+}
